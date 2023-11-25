@@ -6,8 +6,6 @@ import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
-        // 1.	Створіть чотири строки: Hello, Hello, Good-Bye, HELLO.
-        // Порівняйте першу строку з іншими. Потім порівняйте першу з четвертою не враховуючи регістр.
 
         // Task 1
 
@@ -25,7 +23,6 @@ public class Main {
         System.out.println();
 
         // task 2
-        // Перевірте чи починаєть строка Foobar зі слова Foo, чи закінчується на bar, чи містить оо
         System.out.println("task 2");
         String str5 = "Foobar";
         System.out.println(str5.startsWith("Foo"));
@@ -74,7 +71,6 @@ public class Main {
         System.out.println();
 
         // task 7
-
         System.out.println("Task 7");
         String welcomDnipro = "Welcome to Dnipro!";
         System.out.println(welcomDnipro.substring(10));
@@ -153,7 +149,7 @@ public class Main {
         System.out.println(sentence.substring(sentence.indexOf("Java"), sentence.indexOf("Java") + "Java".length()));
 
     }
-    // task 11
+    // task 11 metod
     public static void midlChar (String s){
         int halfLength = s.length()/2;
         if (s.length()%2!=0){
